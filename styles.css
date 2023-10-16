@@ -1,0 +1,142 @@
+html {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrapper {
+    width: 18em;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    justify-content: center;
+}
+
+
+
+a.img {
+    display: block;
+    margin-top: .5em;
+    width: 17em;
+    height: 17em;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: .5em;
+}
+
+a.img:hover {
+    background: url(./images/icon-view.svg) no-repeat center , linear-gradient(hsl(178, 100%, 50%, .4), hsl(178, 100%, 50%, .4)) no-repeat center, url(./images/image-equilibrium.jpg) no-repeat center/100%;
+}
+
+.content {
+    width: 17em;
+    /* margin-left: .5em; */
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin:  .75em 0em;
+    margin-bottom: .25em;
+}
+
+
+
+p {
+    line-height: 1.75;
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: .25em;
+    margin-bottom: 1em;
+
+}
+
+.offer {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time-left {
+    font-weight: 300;
+}
+
+.time-left::before {
+    content: '';
+    padding: .6em;
+    margin-right: .5em;
+    background-image: url(./images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.author {
+    margin-top: 0em;
+    padding-top: 1em;
+    border-top: .1em solid hsl(215, 51%, 70%, .2);
+}
+
+
+.author::before {
+    content: '';
+    padding: 1em;
+    margin-right: .5em;
+    background-image: url(./images/image-avatar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.price::before {
+    content: '';
+    padding: .35em;
+    margin-right: .5em;
+    background-image: url(./images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.transparent {
+    filter: opacity(.9);
+    color: hsl(215, 51%, 70%);
+}
+
+.content a:link, .content a:visited, .content a {
+    color: white;
+    text-decoration: none;
+}
+
+.content a:active {
+    color: hsl(178, 100%, 50%);
+}
