@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://www.github.com/nft_card)
+- Solution URL: [github](https://www.github.com/rasc3ta/nft_card)
 - Live Site URL: [Add live site URL here](https://rasc3ta.github.com/nft_card)
 
 ### Built with
